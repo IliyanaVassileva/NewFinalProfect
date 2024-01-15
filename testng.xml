@@ -3,7 +3,6 @@
 <suite name="NewFinalProfect">
     <test name="NewFinalProject">
         <classes>
-            <class name="BaseClass"></class>
             <class name="RegisterUserTest"></class>
             <class name="NewPostAndDeleteTest"></class>
             <class name="LikeUnlikeAndCommentPostTest"></class>
