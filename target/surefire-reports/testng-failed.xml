@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NewFinalProfect]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="NewFinalProject(failed)" verbose="0">
+    <classes>
+      <class name="FollowAndUnfollowUserTest">
+        <methods>
+          <include name="FollowAndUnfollowUser" invocation-numbers="0"/>
+          <include name="setupMethods"/>
+          <include name="setupTestSuite"/>
+          <include name="setupAftermethods"/>
+        </methods>
+      </class> <!-- FollowAndUnfollowUserTest -->
+      <class name="LikeUnlikeAndCommentPostTest">
+        <methods>
+          <include name="LikeUnlikeCommentPost" invocation-numbers="0"/>
+          <include name="setupMethods"/>
+          <include name="setupTestSuite"/>
+          <include name="setupAftermethods"/>
+        </methods>
+      </class> <!-- LikeUnlikeAndCommentPostTest -->
+    </classes>
+  </test> <!-- NewFinalProject(failed) -->
+</suite> <!-- Failed suite [NewFinalProfect] -->
